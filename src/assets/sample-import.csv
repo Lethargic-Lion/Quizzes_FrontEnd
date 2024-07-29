@@ -1,0 +1,3 @@
+phone,first_name,last_name,custom1,custom2,custom3,custom4,fax_number,organization_name,email,address_line_1,address_line_2,address_city,address_state,address_postal_code,address_country
+61433333333,John,Smith,Custom A 1,Custom B 1,Custom C 1,Custom D 1,61233333333,Organization 1,johndoe1@gmail.com,123 Smith St,Worley Avenue,Perth,WA,6143,AU
+61433333333,Mary,Brown,Custom A 2,Custom B 2,Custom C 2,Custom D 2,61233333333,Organization 2,johndoe2@gmail.com,Unit 4 32 Brown St,Worley Avenue,Sydney,NSW,2412,AU

@@ -1,0 +1,73 @@
+
+
+.dashboard {
+  background: url('../assets/Dashboard\ image.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #3085d6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tagline {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  opacity: 1;
+  /* Start with opacity set to 0 */
+  animation: dropTagline 1.5s forwards;
+  /* Animation for dropping from the top */
+}
+
+.motto {
+  color: #fff;
+  font-size: 1.5em;
+  opacity: 1; 
+  animation: slideMotto 1.5s forwards; 
+}
+
+@keyframes dropTagline {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideMotto {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* .swal2-shown .swal2-height-auto{
+  padding: 0 !important;
+} */
+
